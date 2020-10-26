@@ -47,9 +47,6 @@ if (country.toLowerCase() != "canada") {
     data: newCust
   })}
 
-
-
-  console.log("*****THE ERROR ID IS: ", errorID);
   res.status(400).json({status:"error", error: errorID })
 // }
  
